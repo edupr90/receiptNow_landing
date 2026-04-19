@@ -87,7 +87,7 @@ export default function HeroSection() {
           <div className="flex-1 flex items-center justify-center relative">
             <div className="gradient-orb" style={{ width: '400px', height: '400px' }} />
             <div className="relative z-10">
-              <IPhoneFrame src="/home.png" alt="ReceiptNow App Dashboard" animation="default" size="lg" />
+              <IPhoneFrame src={`${import.meta.env.BASE_URL}home.png`} alt="ReceiptNow App Dashboard" animation="default" size="lg" />
             </div>
           </div>
         </div>

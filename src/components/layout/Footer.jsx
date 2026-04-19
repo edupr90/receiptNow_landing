@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img src="/reciboLogo.png" alt="ReceiptNow" className="h-8 w-8 rounded-lg" />
+              <img src={`${import.meta.env.BASE_URL}reciboLogo.png`} alt="ReceiptNow" className="h-8 w-8 rounded-lg" />
               <span className="text-xl font-bold">ReceiptNow</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
@@ -43,10 +43,10 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-4">Download</h3>
             <div className="space-y-3">
               <a href="#download" className="block transition-transform hover:scale-105">
-                <img src="/appstore.png" alt="Download on the App Store" className="h-10 w-auto" />
+                <img src={`${import.meta.env.BASE_URL}appstore.png`} alt="Download on the App Store" className="h-10 w-auto" />
               </a>
               <a href="#download" className="block transition-transform hover:scale-105">
-                <img src="/playstore.png" alt="Get it on Google Play" className="h-10 w-auto" />
+                <img src={`${import.meta.env.BASE_URL}playstore.png`} alt="Get it on Google Play" className="h-10 w-auto" />
               </a>
             </div>
           </div>

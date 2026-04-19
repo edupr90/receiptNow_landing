@@ -55,7 +55,7 @@ export default function IPhoneFrame({ src, alt = 'App screenshot', className = '
         ) : (
           <div className="w-full h-full flex flex-col items-center justify-center gap-4">
             <img
-              src="/reciboLogo.png"
+              src={`${import.meta.env.BASE_URL}reciboLogo.png`}
               alt="ReceiptNow"
               className="w-20 h-20 opacity-50"
             />
