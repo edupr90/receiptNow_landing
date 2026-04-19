@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #00A878;
+  --color-primary-light: #00C896;
+  --color-primary-dark: #007A58;
+  --color-secondary: #1A1A2E;
+  --color-bg: #F7F7F8;
+  --color-card: #FFFFFF;
+  --color-text-primary: #111111;
+  --color-text-secondary: #4B5563;
+  --color-text-tertiary: #7C8492;
+  --color-border: #DFE1E6;
+
+  --font-sans: 'Nunito', system-ui, sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 999px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--color-text-primary);
+  background-color: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-14px); }
+}
+
+@keyframes float-delayed {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-18px); }
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes gradient-shift {
+  0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.35; }
+  50% { transform: translate(-50%, -50%) scale(1.2); opacity: 0.55; }
+}
+
+.gradient-orb {
+  position: absolute;
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 200, 150, 0.25) 0%, rgba(0, 168, 120, 0.08) 50%, transparent 70%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: blur(50px);
+  animation: gradient-shift 6s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 0;
+}
