@@ -1,4 +1,4 @@
-export default function IPhoneFrame({ src, alt = 'App screenshot', className = '', size = 'default' }) {
+export default function IPhoneFrame({ src, videoSrc, alt = 'App screenshot', className = '', size = 'default' }) {
   const sizes = {
     sm: 'w-[220px] md:w-[260px]',
     default: 'w-[280px] md:w-[300px]',
@@ -39,7 +39,16 @@ export default function IPhoneFrame({ src, alt = 'App screenshot', className = '
           background: 'linear-gradient(145deg, #00C896 0%, #00A878 30%, #1A1A2E 100%)',
         }}
       >
-        {src ? (
+        {videoSrc ? (
+          <video
+            src={videoSrc}
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover"
+          />
+        ) : src ? (
           <img
             src={src}
             alt={alt}

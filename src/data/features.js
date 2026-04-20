@@ -9,9 +9,8 @@ export const features = [
       'Monthly spending total updated in real time',
       'Quick-access list of all your recent receipts',
     ],
-    screenshotSrc: `${import.meta.env.BASE_URL}home.png`,
+    videoSrc: `${import.meta.env.BASE_URL}videos/addLog.mp4`,
     reversed: false,
-    animation: 'default',
   },
   {
     id: 'insights',
@@ -23,9 +22,8 @@ export const features = [
       'Spending forecast based on your receipt history',
       'Toggle between weekly and monthly views',
     ],
-    screenshotSrc: `${import.meta.env.BASE_URL}ins.png`,
+    videoSrc: `${import.meta.env.BASE_URL}videos/insights.mp4`,
     reversed: true,
-    animation: 'delayed',
   },
   {
     id: 'history',
@@ -39,7 +37,6 @@ export const features = [
     ],
     screenshotSrc: `${import.meta.env.BASE_URL}history.png`,
     reversed: false,
-    animation: 'slow',
   },
   {
     id: 'budget',
@@ -51,9 +48,8 @@ export const features = [
       'Visual progress bars per spending category',
       'Alerts when you are close to your limit',
     ],
-    screenshotSrc: `${import.meta.env.BASE_URL}budget.png`,
+    videoSrc: `${import.meta.env.BASE_URL}videos/budget.mp4`,
     reversed: true,
-    animation: 'default',
   },
   {
     id: 'reports',
@@ -65,8 +61,7 @@ export const features = [
       'Tax-ready reports organized by deductible categories',
       'Perfect for freelancers, small businesses, and reimbursements',
     ],
-    screenshotSrc: `${import.meta.env.BASE_URL}report.png`,
+    videoSrc: `${import.meta.env.BASE_URL}videos/export.mp4`,
     reversed: false,
-    animation: 'delayed',
   },
 ]

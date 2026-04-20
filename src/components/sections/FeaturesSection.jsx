@@ -2,7 +2,7 @@ import IPhoneFrame from '../ui/IPhoneFrame'
 import { features } from '../../data/features'
 import useScrollAnimation from '../../hooks/useScrollAnimation'
 
-function FeatureShowcase({ label, title, description, bullets, screenshotSrc, reversed, animation }) {
+function FeatureShowcase({ label, title, description, bullets, screenshotSrc, videoSrc, reversed }) {
   const [ref, isVisible] = useScrollAnimation(0.1)
 
   return (
@@ -39,7 +39,7 @@ function FeatureShowcase({ label, title, description, bullets, screenshotSrc, re
         <div className={`flex-1 flex items-center justify-center relative animate-on-scroll ${reversed ? 'from-left' : 'from-right'} animate-delay-200 ${isVisible ? 'visible' : ''}`}>
           <div className="gradient-orb" style={{ width: '380px', height: '380px' }} />
           <div className="relative z-10">
-            <IPhoneFrame src={screenshotSrc} alt={title} animation={animation} size="lg" />
+            <IPhoneFrame src={screenshotSrc} videoSrc={videoSrc} alt={title} size="lg" />
           </div>
         </div>
       </div>
