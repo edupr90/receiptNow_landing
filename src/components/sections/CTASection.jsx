@@ -1,7 +1,10 @@
 import IPhoneFrame from '../ui/IPhoneFrame'
 import StoreButtons from '../ui/StoreButtons'
+import useScrollAnimation from '../../hooks/useScrollAnimation'
 
 export default function CTASection() {
+  const [ref, isVisible] = useScrollAnimation(0.1)
+
   return (
     <section id="download" className="py-20 md:py-28 bg-primary relative overflow-hidden">
       {/* Animated gradient background */}
@@ -26,10 +29,10 @@ export default function CTASection() {
         />
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div ref={ref} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="flex flex-col items-center">
           {/* Phone mockup */}
-          <div className="mb-12 relative">
+          <div className={`mb-12 relative animate-on-scroll ${isVisible ? 'visible' : ''}`}>
             <div
               className="absolute w-64 h-64 rounded-full"
               style={{
@@ -46,14 +49,16 @@ export default function CTASection() {
           </div>
 
           {/* Text */}
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-white mb-6 text-center max-w-3xl">
-            Ready to take control of your expenses?
+          <h2 className={`text-3xl md:text-4xl lg:text-5xl font-extrabold text-white mb-6 text-center max-w-3xl animate-on-scroll animate-delay-100 ${isVisible ? 'visible' : ''}`}>
+            Ready to organize your receipts?
           </h2>
-          <p className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto text-center">
+          <p className={`text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto text-center animate-on-scroll animate-delay-200 ${isVisible ? 'visible' : ''}`}>
             Download ReceiptNow free and start scanning your receipts today. Available on iOS and Android.
           </p>
 
-          <StoreButtons className="justify-center" />
+          <div className={`animate-on-scroll animate-delay-300 ${isVisible ? 'visible' : ''}`}>
+            <StoreButtons className="justify-center" />
+          </div>
         </div>
       </div>
     </section>

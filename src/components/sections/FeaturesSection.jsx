@@ -1,12 +1,15 @@
 import IPhoneFrame from '../ui/IPhoneFrame'
 import { features } from '../../data/features'
+import useScrollAnimation from '../../hooks/useScrollAnimation'
 
 function FeatureShowcase({ label, title, description, bullets, screenshotSrc, reversed, animation }) {
+  const [ref, isVisible] = useScrollAnimation(0.1)
+
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div ref={ref} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className={`flex flex-col ${reversed ? 'lg:flex-row-reverse' : 'lg:flex-row'} items-center gap-12 lg:gap-20`}>
         {/* Text side */}
-        <div className="flex-1 text-center lg:text-left">
+        <div className={`flex-1 text-center lg:text-left animate-on-scroll ${reversed ? 'from-right' : 'from-left'} ${isVisible ? 'visible' : ''}`}>
           <span className="inline-block text-primary font-bold text-sm uppercase tracking-widest mb-4">
             {label}
           </span>
@@ -33,7 +36,7 @@ function FeatureShowcase({ label, title, description, bullets, screenshotSrc, re
         </div>
 
         {/* Phone side */}
-        <div className="flex-1 flex items-center justify-center relative">
+        <div className={`flex-1 flex items-center justify-center relative animate-on-scroll ${reversed ? 'from-left' : 'from-right'} animate-delay-200 ${isVisible ? 'visible' : ''}`}>
           <div className="gradient-orb" style={{ width: '380px', height: '380px' }} />
           <div className="relative z-10">
             <IPhoneFrame src={screenshotSrc} alt={title} animation={animation} size="lg" />

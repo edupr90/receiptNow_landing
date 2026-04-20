@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import IPhoneFrame from '../ui/IPhoneFrame'
 import StoreButtons from '../ui/StoreButtons'
 
@@ -33,6 +34,9 @@ const stats = [
 ]
 
 export default function HeroSection() {
+  const [loaded, setLoaded] = useState(false)
+  useEffect(() => { setLoaded(true) }, [])
+
   return (
     <section className="relative pt-28 pb-20 md:pt-36 md:pb-28 lg:pt-40 lg:pb-36 overflow-hidden bg-white">
       {/* Subtle background decoration */}
@@ -47,7 +51,7 @@ export default function HeroSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
           {/* Text content */}
-          <div className="flex-1 text-center lg:text-left max-w-xl">
+          <div className={`flex-1 text-center lg:text-left max-w-xl animate-on-scroll from-left ${loaded ? 'visible' : ''}`}>
             <div className="inline-flex items-center gap-2 bg-primary/10 text-primary font-bold text-sm px-4 py-2 rounded-full mb-8">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -84,7 +88,7 @@ export default function HeroSection() {
           </div>
 
           {/* iPhone frame */}
-          <div className="flex-1 flex items-center justify-center relative">
+          <div className={`flex-1 flex items-center justify-center relative animate-on-scroll from-right animate-delay-200 ${loaded ? 'visible' : ''}`}>
             <div className="gradient-orb" style={{ width: '400px', height: '400px' }} />
             <div className="relative z-10">
               <IPhoneFrame src={`${import.meta.env.BASE_URL}home.png`} alt="ReceiptNow App Dashboard" animation="default" size="lg" />
