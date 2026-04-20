@@ -66,20 +66,22 @@ body {
   transform: translateY(0);
 }
 
-.animate-on-scroll.from-left {
-  transform: translateX(-60px);
-}
+@media (min-width: 1024px) {
+  .animate-on-scroll.from-left {
+    transform: translateX(-60px);
+  }
 
-.animate-on-scroll.from-left.visible {
-  transform: translateX(0);
-}
+  .animate-on-scroll.from-left.visible {
+    transform: translateX(0);
+  }
 
-.animate-on-scroll.from-right {
-  transform: translateX(60px);
-}
+  .animate-on-scroll.from-right {
+    transform: translateX(60px);
+  }
 
-.animate-on-scroll.from-right.visible {
-  transform: translateX(0);
+  .animate-on-scroll.from-right.visible {
+    transform: translateX(0);
+  }
 }
 
 .animate-delay-100 { transition-delay: 0.1s; }
