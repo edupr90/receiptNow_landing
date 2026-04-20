@@ -3,7 +3,7 @@ export const features = [
     id: 'dashboard',
     label: 'Dashboard',
     title: 'All Your Receipts in One Place',
-    description: 'Every scanned receipt is saved and organized automatically. See your recent receipts with merchant names, thumbnails, and amounts — plus a real-time summary of your monthly spending.',
+    description: 'Every scanned receipt is saved and organized automatically. See your recent receipts with merchant names, thumbnails, and amounts, plus a real-time summary of your monthly spending.',
     bullets: [
       'Instant receipt capture with AI-powered scanning',
       'Monthly spending total updated in real time',
@@ -17,7 +17,7 @@ export const features = [
     id: 'insights',
     label: 'Insights',
     title: 'See Where Every Dollar Goes',
-    description: 'Your receipts are automatically categorized — groceries, dining, gas, shopping, and more. Interactive breakdowns show exactly how your spending is distributed, with smart forecasts to help you plan ahead.',
+    description: 'Your receipts are automatically categorized: groceries, dining, gas, shopping, and more. Interactive breakdowns show exactly how your spending is distributed, with smart forecasts to help you plan ahead.',
     bullets: [
       'Auto-categorized receipts by spending type',
       'Spending forecast based on your receipt history',
@@ -45,7 +45,7 @@ export const features = [
     id: 'budget',
     label: 'Budgets',
     title: 'Set Budgets, Stay in Control',
-    description: 'Create monthly budgets based on your receipt categories — groceries, dining out, transportation, and more. Visual progress bars show exactly how much you have left to spend.',
+    description: 'Create monthly budgets based on your receipt categories like groceries, dining out, transportation, and more. Visual progress bars show exactly how much you have left to spend.',
     bullets: [
       'Category-based budgets tied to your receipts',
       'Visual progress bars per spending category',
@@ -59,7 +59,7 @@ export const features = [
     id: 'reports',
     label: 'Reports',
     title: 'Tax-Ready Reports in Seconds',
-    description: 'Generate detailed spending reports perfect for tax season, expense reimbursements, or business accounting. All your receipts organized by category with totals, dates, and attached photos — ready to share with your accountant.',
+    description: 'Generate detailed spending reports perfect for tax season, expense reimbursements, or business accounting. All your receipts organized by category with totals, dates, and attached photos, ready to share with your accountant.',
     bullets: [
       'Export as PDF, CSV, Excel, or ZIP with receipt photos',
       'Tax-ready reports organized by deductible categories',

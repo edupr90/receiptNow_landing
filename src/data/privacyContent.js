@@ -50,7 +50,7 @@ We do **not** use your financial data for advertising targeting or sell it to th
 - Extracted data is returned to the App and stored locally on your device only
 - Google processes the image according to their data processing terms
 
-Google's AI services do not retain your receipt images beyond the processing session. The extracted data is never stored on our servers — it goes directly to your device. For more information, please refer to Google's AI Terms of Service and Privacy Policy.
+Google's AI services do not retain your receipt images beyond the processing session. The extracted data is never stored on our servers. It goes directly to your device. For more information, please refer to Google's AI Terms of Service and Privacy Policy.
 
 We continuously evaluate our AI providers to ensure they meet our privacy and security standards.`,
   },
@@ -78,10 +78,10 @@ We continuously evaluate our AI providers to ensure they meet our privacy and se
     body: `We do **not** sell, rent, or trade your personal data. Your information may be shared only in the following circumstances:
 
 **Service Providers (limited data only):**
-- Google Gemini AI (receipt images sent for processing only — not stored)
-- Firebase (analytics and crash reporting — anonymized data only)
-- RevenueCat (subscription management — limited to subscription status)
-- Google AdMob (advertising — no financial data shared)
+- Google Gemini AI (receipt images sent for processing only, not stored)
+- Firebase (analytics and crash reporting, anonymized data only)
+- RevenueCat (subscription management, limited to subscription status)
+- Google AdMob (advertising, no financial data shared)
 
 **Legal Requirements:**
 - When required by law, regulation, or legal process

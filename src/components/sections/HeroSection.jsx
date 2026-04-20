@@ -65,7 +65,7 @@ export default function HeroSection() {
             </h1>
 
             <p className="text-lg md:text-xl text-text-secondary mb-10 max-w-md mx-auto lg:mx-0 leading-relaxed">
-              Scan any receipt in seconds. Track expenses, set budgets, and get insights &mdash; all in one beautiful app.
+              Scan any receipt in seconds. Track expenses, set budgets, and get insights. All in one beautiful app.
             </p>
 
             <StoreButtons className="justify-center lg:justify-start mb-12" />
