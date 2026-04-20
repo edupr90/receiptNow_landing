@@ -1,10 +1,4 @@
-const floatAnimations = {
-  default: 'float 4s ease-in-out infinite',
-  delayed: 'float-delayed 5s ease-in-out 0.5s infinite',
-  slow: 'float-slow 6s ease-in-out 1s infinite',
-}
-
-export default function IPhoneFrame({ src, alt = 'App screenshot', className = '', animation = 'default', size = 'default' }) {
+export default function IPhoneFrame({ src, alt = 'App screenshot', className = '', size = 'default' }) {
   const sizes = {
     sm: 'w-[220px] md:w-[260px]',
     default: 'w-[280px] md:w-[300px]',
@@ -20,7 +14,6 @@ export default function IPhoneFrame({ src, alt = 'App screenshot', className = '
         borderRadius: '44px',
         padding: '10px',
         boxShadow: '0 40px 80px -20px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255,255,255,0.05)',
-        animation: floatAnimations[animation] || floatAnimations.default,
       }}
     >
       {/* Dynamic Island */}
