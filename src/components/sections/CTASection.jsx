@@ -44,7 +44,7 @@ export default function CTASection() {
               }}
             />
             <div className="relative z-10">
-              <IPhoneFrame src={`${import.meta.env.BASE_URL}ins.png`} alt="ReceiptNow Insights" animation="slow" />
+              <IPhoneFrame src={`${import.meta.env.BASE_URL}home.png`} alt="ReceiptNow App" />
             </div>
           </div>
 
