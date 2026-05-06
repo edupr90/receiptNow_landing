@@ -1,178 +1,143 @@
 export const privacyContent = [
   {
-    title: '1. Introduction',
-    body: `At ReceiptNow, we are committed to protecting your privacy and personal data. This Privacy Policy explains how we collect, use, store, and share your information when you use the ReceiptNow mobile application ("App").
+    title: '1. Purpose of the App',
+    body: `ReceiptNow is an **AI-powered receipt scanner and expense tracking tool**.
 
-By using the App, you consent to the practices described in this Privacy Policy. We encourage you to read this policy carefully and contact us if you have any questions.`,
+- The App is **not a bank, financial institution, or financial advisor**.
+- We do not provide investment, tax, accounting, or legal advice.
+- You are solely responsible for your financial decisions and for verifying the accuracy of any data extracted by the App's AI features.
+
+**Disclaimer:** We are not liable for any financial loss, damages, or decisions made using this App. All AI-generated data, including but not limited to extracted receipt amounts, merchant names, dates, and categorizations, is provided on a best-effort basis and may contain errors. You acknowledge and accept full responsibility for reviewing and confirming the accuracy of all information before relying on it.`,
   },
   {
-    title: '2. Information We Collect',
-    body: `We collect the following types of information:
+    title: '2. Data Collection & Privacy',
+    body: `All information you enter or scan (receipts, expenses, budgets, categories) is stored **locally on your device**.
 
-All personal and financial data listed below is stored exclusively on your device and is never uploaded to our servers.
+- We **do not collect, transmit, or store your personal or financial data on external servers**.
+- You are fully in control of your information. If you delete the App or reset your device, we cannot access, recover, or restore your data on your behalf.
+- We recommend using the built-in export features (PDF, CSV, Excel) to back up your data regularly to avoid permanent loss.
 
-**Information Stored on Your Device:**
-- Receipt images you scan or import
-- Manual expense entries and notes
-- Budget settings and financial goals
-- Category preferences and tags
-- Merchant/store name and address
-- Purchase dates, line items, subtotals, tax amounts, and totals
-
-**Information Collected by Third-Party Services:**
-- Device model and operating system version (analytics)
-- App version and language preference (analytics)
-- App performance metrics and crash reports (analytics)
-- Subscription status (RevenueCat)
-
-We do not collect, store, or have access to your financial data, receipt images, or expense information on any server.`,
+**Important:** Since all data resides exclusively on your device, uninstalling the App or clearing app data will permanently and irrecoverably delete all your information. This action cannot be undone by us or anyone else.`,
   },
   {
-    title: '3. How We Use Your Information',
-    body: `We use the collected information to:
+    title: '2.1 Third-Party Services',
+    body: `While the App itself does not store your data on external servers, the following third-party services may process limited data:
 
-- Process receipt images through AI to extract and digitize data
-- Provide expense tracking, categorization, and budgeting features
-- Generate financial insights, charts, and spending reports
-- Improve AI accuracy and overall app performance
-- Send service-related notifications (budget alerts, feature updates)
-- Provide customer support
-- Comply with legal obligations
+- **Google Gemini AI (via Firebase AI)** — Receipt images are securely transmitted to Google's servers for AI processing. Images are not retained beyond the processing session. Extracted data is returned directly to your device.
+- **In-app purchases & subscriptions** — Handled by Apple App Store or Google Play.
+- **Subscription management** — Handled by RevenueCat.
+- **Advertisements** (for free-tier users) — Handled by Google AdMob. Ads are not targeted based on your financial data or receipt content.
+- **Analytics & crash reporting** — Handled by Firebase. Only anonymized, non-financial data (device model, OS version, app performance metrics) is collected.
 
-We do **not** use your financial data for advertising targeting or sell it to third parties.`,
+Each third party operates under its own privacy policy:
+
+- Google Privacy Policy: https://policies.google.com/privacy
+- Apple Privacy Policy: https://www.apple.com/legal/privacy/
+- RevenueCat Privacy Policy: https://www.revenuecat.com/privacy`,
   },
   {
-    title: '4. AI Processing',
-    body: `ReceiptNow uses Google's Gemini AI (through Firebase AI) to process receipt images. When you scan a receipt:
+    title: '3. Subscription Options',
+    body: `Pricing shown is for the U.S. store; **prices may vary by region and currency**. Subscriptions **auto-renew** unless canceled. You can cancel anytime in your App Store or Google Play settings.
 
-- The receipt image is securely transmitted to Google's servers for AI processing
-- The AI extracts text and structured data from the image
-- Extracted data is returned to the App and stored locally on your device only
-- Google processes the image according to their data processing terms
+**Free Tier:**
+- 5 AI scans per week
+- Advertisements displayed
+- No export functionality
 
-Google's AI services do not retain your receipt images beyond the processing session. The extracted data is never stored on our servers. It goes directly to your device. For more information, please refer to Google's AI Terms of Service and Privacy Policy.
+**Starter (Monthly):**
+- 10 AI scans per week
+- Ad-free experience
+- Full export capabilities (PDF, CSV, Excel)
 
-We continuously evaluate our AI providers to ensure they meet our privacy and security standards.`,
+**Plus (Monthly):**
+- 30 AI scans per week
+- Ad-free experience
+- Full export capabilities (PDF, CSV, Excel)
+
+**Pro (Monthly):**
+- 60 AI scans per week
+- Ad-free experience
+- Full export capabilities (PDF, CSV, Excel)
+- Includes 3-day free trial
+
+**Unlimited (Annual):**
+- Unlimited AI scans
+- Ad-free experience
+- Full export capabilities (PDF, CSV, Excel)
+
+**How Subscriptions Work:**
+- Payment is charged to your **Apple ID** or **Google Play** account at confirmation of purchase.
+- Subscriptions **renew automatically** unless you turn off auto-renew at least 24 hours before the end of the current period.
+- Your account will be charged for renewal within 24 hours prior to the end of the current period.
+- Manage or cancel your subscription in **App Store** / **Google Play** account settings after purchase.
+- If your subscription lapses, premium features will no longer be available, and your plan will revert to the free tier.
+
+**Terms of Use (EULA):**
+For iOS users, your use of subscriptions is also governed by the Apple Standard End User License Agreement (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/`,
   },
   {
-    title: '5. Data Storage & Security',
-    body: `We take the security of your data seriously:
+    title: '4. Camera & Photo Permissions',
+    body: `The App requests access to your device's camera and photo library solely for scanning receipts.
 
-**Local-Only Storage:**
-- All your data is stored exclusively on your device using a local database
-- No data is uploaded to, synced with, or backed up to any cloud service or remote server
-- We do not have access to your financial data, receipts, or personal information
+- **Camera Access:** Used only for scanning receipts in real-time. No images are captured without your explicit action. The camera feed is not recorded or transmitted beyond receipt processing.
+- **Photo Library Access:** Used only for importing receipt images you explicitly select. No background scanning or indexing of your photo library occurs.
 
-**Security Measures:**
-- Data transmitted to AI services for receipt scanning is encrypted using TLS (Transport Layer Security)
-- Biometric authentication (Face ID, Touch ID, fingerprint) is available to protect access to the App
-- No sensitive data is stored in plain text on your device
-
-**Important:**
-- Since all data is stored locally, uninstalling the App or clearing app data will permanently delete all your information
-- This action cannot be undone and data cannot be recovered by us or anyone else
-- We recommend using the export feature to save your data before uninstalling`,
+These permissions can be revoked at any time through your device settings. The App will continue to function with reduced functionality if these permissions are not granted.`,
   },
   {
-    title: '6. Data Sharing',
-    body: `We do **not** sell, rent, or trade your personal data. Your information may be shared only in the following circumstances:
+    title: '5. Limitation of Liability & Disclaimer of Warranties',
+    body: `THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT ANY WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, AND NON-INFRINGEMENT.
 
-**Service Providers (limited data only):**
-- Google Gemini AI (receipt images sent for processing only, not stored)
-- Firebase (analytics and crash reporting, anonymized data only)
-- RevenueCat (subscription management, limited to subscription status)
-- Google AdMob (advertising, no financial data shared)
+**User Assumption of Risk & Liability:**
 
-**Legal Requirements:**
-- When required by law, regulation, or legal process
-- To protect the rights, property, or safety of ReceiptNow, our users, or the public
-- In connection with a merger, acquisition, or sale of assets (with notice)
+By using ReceiptNow, you expressly acknowledge and agree that:
 
-**With Your Consent:**
-- When you explicitly choose to export or share your data`,
+- You use the App entirely at your own risk. The entire risk as to the quality, accuracy, and performance of the App rests with you.
+- You are solely responsible for any decisions, actions, or financial consequences that result from your use of the App or reliance on any data or information provided by the App, including AI-generated receipt data.
+- You are solely responsible for verifying the accuracy, completeness, and reliability of all data extracted, displayed, or exported by the App before relying on it for any purpose, including but not limited to tax filings, expense reports, budgeting, or financial record-keeping.
+- You are solely responsible for maintaining backups of your data. Since all data is stored locally on your device, loss of data due to device failure, App deletion, software updates, or any other cause is your responsibility.
+
+**Limitation of Liability:**
+
+To the maximum extent permitted by applicable law, in no event shall ReceiptNow, its developer, affiliates, licensors, or service providers be liable for any indirect, incidental, special, consequential, punitive, or exemplary damages, including but not limited to damages for loss of profits, goodwill, data, or other intangible losses, arising out of or in connection with:
+
+- Your use of or inability to use the App
+- Any errors, inaccuracies, or omissions in AI-processed data or any other content provided by the App
+- Unauthorized access to or alteration of your data
+- Loss of data resulting from device failure, App deletion, or any other cause
+- Any third-party conduct or content, including but not limited to AI processing services
+- Any other matter relating to the App
+
+You agree to indemnify, defend, and hold harmless ReceiptNow and its developer from and against any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising from your use of the App or your violation of these terms.
+
+This limitation of liability applies regardless of the legal theory on which the claim is based, whether in contract, tort (including negligence), strict liability, or otherwise, even if ReceiptNow has been advised of the possibility of such damages.`,
+  },
+  {
+    title: '6. Children\'s Privacy',
+    body: `The App is not directed toward children under 13. We do not knowingly collect data from children. Since all data is local-only, parents remain responsible for supervising device use.`,
   },
   {
     title: '7. Your Rights',
-    body: `You have the following rights regarding your data:
+    body: `Since all data is stored locally on your device, you have full and immediate control over your data at all times:
 
-**Access:** View all your data at any time within the App. All data is on your device.
+**Access:** View all your data at any time within the App.
 
-**Export:** Download your complete data in PDF or CSV format through the Reports feature.
+**Export:** Download your data in PDF, CSV, or Excel format through the Reports feature.
 
-**Correction:** Edit or correct any receipt data or personal information within the App.
+**Correction:** Edit or correct any receipt data within the App.
 
-**Deletion:** Delete any individual receipt, expense, or all data directly within the App. You can also delete all data by uninstalling the App, as no data is stored elsewhere.
+**Deletion:** Delete any individual receipt, expense, or all data directly within the App. You may also delete all data by uninstalling the App.
 
-**Opt-Out:** You can opt out of analytics data collection in the App settings.
-
-**Data Portability:** Export your data in standard formats (PDF, CSV, Excel) for use with other services.
-
-Since all data is stored locally on your device, you have full and immediate control over your data at all times without needing to contact us.`,
+**Opt-Out:** You can opt out of analytics data collection in the App settings. Ad personalization can be disabled in your device settings.`,
   },
   {
-    title: '8. Camera & Photo Permissions',
-    body: `The App requests access to your device's camera and photo library for the following purposes:
-
-**Camera Access:**
-- Used solely for scanning receipts in real-time
-- No images are captured without your explicit action
-- Camera feed is not recorded, stored, or transmitted beyond receipt scanning
-
-**Photo Library Access:**
-- Used solely for importing receipt images from your gallery
-- We only access images you explicitly select
-- No background scanning or indexing of your photo library occurs
-
-These permissions can be revoked at any time through your device's settings. The App will continue to function with reduced functionality if these permissions are not granted.`,
+    title: '8. Changes to This Policy',
+    body: `We may update these terms occasionally. Continued use of the App after updates means you accept the changes. When we make material changes, we will update the "Last Updated" date at the top of this page and may notify you through the App.`,
   },
   {
-    title: '9. Advertising',
-    body: `The free tier of ReceiptNow may display advertisements through Google AdMob:
+    title: '9. Contact & Support',
+    body: `If you have any questions about these Terms or the Privacy Policy, please contact us at:
 
-- Ads are not targeted based on your financial data or receipt content
-- Ad personalization can be disabled in your device settings
-- Premium subscribers enjoy an ad-free experience
-- We do not share your personal financial data with advertising partners`,
-  },
-  {
-    title: '10. Children\'s Privacy',
-    body: `The App is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have collected data from a child under 13, we will take steps to delete that information promptly.
-
-If you believe a child under 13 has provided us with personal data, please contact us at privacy@receiptnow.app.`,
-  },
-  {
-    title: '11. International Data Transfers',
-    body: `Your personal and financial data is stored locally on your device and is not transferred internationally. However, when you scan a receipt, the image is temporarily transmitted to Google's AI servers for processing, which may be located in the United States or other regions. This transmission is encrypted and the image is not retained after processing.
-
-Anonymized analytics data collected by Firebase may be processed in data centers in various regions.`,
-  },
-  {
-    title: '12. Data Retention',
-    body: `We retain your data as follows:
-
-- **On-Device Data:** All your personal and financial data exists only on your device for as long as the App is installed
-- **App Deletion:** When you uninstall the App or clear its data, all information is permanently and irrecoverably deleted
-- **Analytics Data:** Anonymized analytics data collected by Firebase may be retained for service improvement purposes
-- **AI Processing:** Receipt images sent for AI processing are not retained by Google beyond the processing session
-
-You can delete individual receipts, expenses, or all data at any time through the App. No data recovery is possible after deletion since we do not store your data on any server.`,
-  },
-  {
-    title: '13. Changes to This Policy',
-    body: `We may update this Privacy Policy from time to time. When we make material changes:
-
-- We will update the "Last Updated" date at the top of this page
-- We will notify you through the App or via email
-- We will provide a summary of key changes
-
-Your continued use of the App after changes take effect constitutes acceptance of the updated Privacy Policy.`,
-  },
-  {
-    title: '14. Contact Us',
-    body: `If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at:
-
-**Email:** privacy@receiptnow.app
-
-We aim to respond to all privacy-related inquiries within 5 business days.`,
+**Email:** bybsupport@budgetyourbudget.com`,
   },
 ]

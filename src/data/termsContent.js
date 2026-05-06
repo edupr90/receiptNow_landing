@@ -139,7 +139,7 @@ Your continued use of the App after changes take effect constitutes acceptance o
     title: '15. Contact Information',
     body: `If you have any questions about these Terms, please contact us at:
 
-**Email:** legal@receiptnow.app
+**Email:** bybsupport@budgetyourbudget.com
 
 We aim to respond to all inquiries within 5 business days.`,
   },
