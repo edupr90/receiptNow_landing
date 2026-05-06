@@ -1,6 +1,16 @@
 import { Link } from 'react-router-dom'
 import { termsContent } from '../data/termsContent'
 
+function renderInlineBold(text) {
+  const parts = text.split(/(\*\*.+?\*\*)/)
+  return parts.map((part, i) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={i} className="text-text-primary">{part.slice(2, -2)}</strong>
+    }
+    return part
+  })
+}
+
 export default function TermsPage() {
   return (
     <section className="pt-24 pb-16 md:pt-32 md:pb-24">
@@ -27,7 +37,7 @@ export default function TermsPage() {
                       return (
                         <div key={i} className="flex gap-2 ml-2 mb-1">
                           <span className="text-primary mt-0.5">&#8226;</span>
-                          <span>{paragraph.slice(2)}</span>
+                          <span>{renderInlineBold(paragraph.slice(2))}</span>
                         </div>
                       )
                     }
@@ -38,16 +48,8 @@ export default function TermsPage() {
                         </p>
                       )
                     }
-                    if (paragraph.match(/^\*\*.+?\*\*:/)) {
-                      const [, bold, rest] = paragraph.match(/^\*\*(.+?)\*\*:(.*)/)
-                      return (
-                        <p key={i} className="mt-2">
-                          <strong className="text-text-primary">{bold}:</strong>{rest}
-                        </p>
-                      )
-                    }
                     if (paragraph.trim() === '') return <br key={i} />
-                    return <p key={i} className="mb-2">{paragraph}</p>
+                    return <p key={i} className="mb-2">{renderInlineBold(paragraph)}</p>
                   })}
                 </div>
               </div>

@@ -44,26 +44,21 @@ Each third party operates under its own privacy policy:
 - Advertisements displayed
 - No export functionality
 
-**Starter (Monthly):**
-- 10 AI scans per week
-- Ad-free experience
-- Full export capabilities (PDF, CSV, Excel)
-
 **Plus (Monthly):**
 - 30 AI scans per week
 - Ad-free experience
-- Full export capabilities (PDF, CSV, Excel)
+- Full export capabilities (PDF, CSV, Excel, ZIP)
 
 **Pro (Monthly):**
 - 60 AI scans per week
 - Ad-free experience
-- Full export capabilities (PDF, CSV, Excel)
+- Full export capabilities (PDF, CSV, Excel, ZIP)
 - Includes 3-day free trial
 
 **Unlimited (Annual):**
 - Unlimited AI scans
 - Ad-free experience
-- Full export capabilities (PDF, CSV, Excel)
+- Full export capabilities (PDF, CSV, Excel, ZIP)
 
 **How Subscriptions Work:**
 - Payment is charged to your **Apple ID** or **Google Play** account at confirmation of purchase.
@@ -122,7 +117,7 @@ This limitation of liability applies regardless of the legal theory on which the
 
 **Access:** View all your data at any time within the App.
 
-**Export:** Download your data in PDF, CSV, or Excel format through the Reports feature.
+**Export:** Download your data in PDF, CSV, Excel, or ZIP format through the Reports feature.
 
 **Correction:** Edit or correct any receipt data within the App.
 
