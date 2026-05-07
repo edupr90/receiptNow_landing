@@ -15,7 +15,7 @@ export const privacyContent = [
 
 - We **do not collect, transmit, or store your personal or financial data on external servers**.
 - You are fully in control of your information. If you delete the App or reset your device, we cannot access, recover, or restore your data on your behalf.
-- We recommend using the built-in export features (PDF, CSV, Excel) to back up your data regularly to avoid permanent loss.
+- We recommend using the built-in backup feature to save and restore your data across devices or prevent data loss. You can also export your data in PDF, CSV, or Excel format.
 
 **Important:** Since all data resides exclusively on your device, uninstalling the App or clearing app data will permanently and irrecoverably delete all your information. This action cannot be undone by us or anyone else.`,
   },
