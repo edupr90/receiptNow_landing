@@ -44,18 +44,18 @@ Each third party operates under its own privacy policy:
 - Advertisements displayed
 - No export functionality
 
-**Plus (Monthly):**
+**Plus ($6.99/month):**
 - 30 AI scans per week
 - Ad-free experience
 - Full export capabilities (PDF, CSV, Excel, ZIP)
 
-**Pro (Monthly):**
+**Pro ($9.99/month):**
 - 60 AI scans per week
 - Ad-free experience
 - Full export capabilities (PDF, CSV, Excel, ZIP)
 - Includes 3-day free trial
 
-**Unlimited (Annual):**
+**Unlimited ($59.99/year):**
 - Unlimited AI scans
 - Ad-free experience
 - Full export capabilities (PDF, CSV, Excel, ZIP)
@@ -118,6 +118,8 @@ This limitation of liability applies regardless of the legal theory on which the
 **Access:** View all your data at any time within the App.
 
 **Export:** Download your data in PDF, CSV, Excel, or ZIP format through the Reports feature.
+
+**Backup:** Save and restore your data using the built-in backup feature. Transfer your data to another device or create backups to prevent data loss.
 
 **Correction:** Edit or correct any receipt data within the App.
 
