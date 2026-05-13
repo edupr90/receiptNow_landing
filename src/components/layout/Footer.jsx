@@ -42,7 +42,7 @@ export default function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4">Download</h3>
             <div className="space-y-3">
-              <a href="#download" className="block transition-transform hover:scale-105">
+              <a href="https://apps.apple.com/us/app/receiptnow-receipt-scanner/id6760916767" target="_blank" rel="noopener noreferrer" className="block transition-transform hover:scale-105">
                 <img src={`${import.meta.env.BASE_URL}appstore.png`} alt="Download on the App Store" className="h-10 w-auto" />
               </a>
               <a href="#download" className="block transition-transform hover:scale-105">
