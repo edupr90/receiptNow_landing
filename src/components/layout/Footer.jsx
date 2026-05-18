@@ -45,7 +45,7 @@ export default function Footer() {
               <a href="https://apps.apple.com/us/app/receiptnow-receipt-scanner/id6760916767" target="_blank" rel="noopener noreferrer" className="block transition-transform hover:scale-105">
                 <img src={`${import.meta.env.BASE_URL}appstore.png`} alt="Download on the App Store" className="h-10 w-auto" />
               </a>
-              <a href="#download" className="block transition-transform hover:scale-105">
+              <a href="https://play.google.com/store/apps/details?id=com.evelez.recibo&pcampaignid=web_share" target="_blank" rel="noopener noreferrer" className="block transition-transform hover:scale-105">
                 <img src={`${import.meta.env.BASE_URL}playstore.png`} alt="Get it on Google Play" className="h-10 w-auto" />
               </a>
             </div>

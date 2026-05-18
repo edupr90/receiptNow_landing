@@ -8,7 +8,7 @@ export default function StoreButtons({ className = '' }) {
           className="h-12 w-auto"
         />
       </a>
-      <a href="#download" className="transition-transform hover:scale-105">
+      <a href="https://play.google.com/store/apps/details?id=com.evelez.recibo&pcampaignid=web_share" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-105">
         <img
           src={`${import.meta.env.BASE_URL}playstore.png`}
           alt="Get it on Google Play"
