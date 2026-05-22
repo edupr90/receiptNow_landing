@@ -56,12 +56,12 @@ export default function HeroSection() {
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
-              AI-Powered Expense Tracking
+              Smart Expense Tracking
             </div>
 
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-text-primary leading-[1.05] mb-7">
               Your Receipts,{' '}
-              <span className="text-primary">Organized by AI.</span>
+              <span className="text-primary">Smarter & Organized.</span>
             </h1>
 
             <p className="text-lg md:text-xl text-text-secondary mb-10 max-w-md mx-auto lg:mx-0 leading-relaxed">

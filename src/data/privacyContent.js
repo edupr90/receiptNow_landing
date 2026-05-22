@@ -1,13 +1,13 @@
 export const privacyContent = [
   {
     title: '1. Purpose of the App',
-    body: `ReceiptNow is an **AI-powered receipt scanner and expense tracking tool**.
+    body: `ReceiptNow is a **smart receipt scanner and expense tracking tool**.
 
 - The App is **not a bank, financial institution, or financial advisor**.
 - We do not provide investment, tax, accounting, or legal advice.
-- You are solely responsible for your financial decisions and for verifying the accuracy of any data extracted by the App's AI features.
+- You are solely responsible for your financial decisions and for verifying the accuracy of any data extracted by the App's smart features.
 
-**Disclaimer:** We are not liable for any financial loss, damages, or decisions made using this App. All AI-generated data, including but not limited to extracted receipt amounts, merchant names, dates, and categorizations, is provided on a best-effort basis and may contain errors. You acknowledge and accept full responsibility for reviewing and confirming the accuracy of all information before relying on it.`,
+**Disclaimer:** We are not liable for any financial loss, damages, or decisions made using this App. All automatically extracted data, including but not limited to extracted receipt amounts, merchant names, dates, and categorizations, is provided on a best-effort basis and may contain errors. You acknowledge and accept full responsibility for reviewing and confirming the accuracy of all information before relying on it.`,
   },
   {
     title: '2. Data Collection & Privacy',
@@ -23,7 +23,7 @@ export const privacyContent = [
     title: '2.1 Third-Party Services',
     body: `While the App itself does not store your data on external servers, the following third-party services may process limited data:
 
-- **Google Gemini AI (via Firebase AI)** — Receipt images are securely transmitted to Google's servers for AI processing. Images are not retained beyond the processing session. Extracted data is returned directly to your device.
+- **Google Gemini (via Firebase)** — Receipt images are securely transmitted to Google's servers for smart processing. Images are not retained beyond the processing session. Extracted data is returned directly to your device.
 - **In-app purchases & subscriptions** — Handled by Apple App Store or Google Play.
 - **Subscription management** — Handled by RevenueCat.
 - **Advertisements** (for free-tier users) — Handled by Google AdMob. Ads are not targeted based on your financial data or receipt content.
@@ -40,23 +40,23 @@ Each third party operates under its own privacy policy:
     body: `Pricing shown is for the U.S. store; **prices may vary by region and currency**. Subscriptions **auto-renew** unless canceled. You can cancel anytime in your App Store or Google Play settings.
 
 **Free Tier:**
-- 5 AI scans per week
+- 5 smart scans per week
 - Advertisements displayed
 - No export functionality
 
 **Plus ($6.99/month):**
-- 30 AI scans per week
+- 30 smart scans per week
 - Ad-free experience
 - Full export capabilities (PDF, CSV, Excel, ZIP)
 
 **Pro ($9.99/month):**
-- 60 AI scans per week
+- 60 smart scans per week
 - Ad-free experience
 - Full export capabilities (PDF, CSV, Excel, ZIP)
 - Includes 3-day free trial
 
 **Unlimited ($59.99/year):**
-- Unlimited AI scans
+- Unlimited smart scans
 - Ad-free experience
 - Full export capabilities (PDF, CSV, Excel, ZIP)
 
@@ -88,7 +88,7 @@ These permissions can be revoked at any time through your device settings. The A
 By using ReceiptNow, you expressly acknowledge and agree that:
 
 - You use the App entirely at your own risk. The entire risk as to the quality, accuracy, and performance of the App rests with you.
-- You are solely responsible for any decisions, actions, or financial consequences that result from your use of the App or reliance on any data or information provided by the App, including AI-generated receipt data.
+- You are solely responsible for any decisions, actions, or financial consequences that result from your use of the App or reliance on any data or information provided by the App, including automatically extracted receipt data.
 - You are solely responsible for verifying the accuracy, completeness, and reliability of all data extracted, displayed, or exported by the App before relying on it for any purpose, including but not limited to tax filings, expense reports, budgeting, or financial record-keeping.
 - You are solely responsible for maintaining backups of your data. Since all data is stored locally on your device, loss of data due to device failure, App deletion, software updates, or any other cause is your responsibility.
 
@@ -97,10 +97,10 @@ By using ReceiptNow, you expressly acknowledge and agree that:
 To the maximum extent permitted by applicable law, in no event shall ReceiptNow, its developer, affiliates, licensors, or service providers be liable for any indirect, incidental, special, consequential, punitive, or exemplary damages, including but not limited to damages for loss of profits, goodwill, data, or other intangible losses, arising out of or in connection with:
 
 - Your use of or inability to use the App
-- Any errors, inaccuracies, or omissions in AI-processed data or any other content provided by the App
+- Any errors, inaccuracies, or omissions in processed data or any other content provided by the App
 - Unauthorized access to or alteration of your data
 - Loss of data resulting from device failure, App deletion, or any other cause
-- Any third-party conduct or content, including but not limited to AI processing services
+- Any third-party conduct or content, including but not limited to processing services
 - Any other matter relating to the App
 
 You agree to indemnify, defend, and hold harmless ReceiptNow and its developer from and against any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising from your use of the App or your violation of these terms.

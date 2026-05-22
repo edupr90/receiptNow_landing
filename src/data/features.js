@@ -5,7 +5,7 @@ export const features = [
     title: 'All Your Receipts in One Place',
     description: 'Every scanned receipt is saved and organized automatically. See your recent receipts with merchant names, thumbnails, and amounts, plus a real-time summary of your monthly spending.',
     bullets: [
-      'Instant receipt capture with AI-powered scanning',
+      'Instant receipt capture with smart scanning',
       'Monthly spending total updated in real time',
       'Quick-access list of all your recent receipts',
     ],

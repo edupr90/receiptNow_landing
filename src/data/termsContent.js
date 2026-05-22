@@ -7,9 +7,9 @@ These Terms constitute a legally binding agreement between you ("User," "you," o
   },
   {
     title: '2. Description of Service',
-    body: `ReceiptNow is an AI-powered receipt scanner and expense tracking application. The App provides the following services:
+    body: `ReceiptNow is a smart receipt scanner and expense tracking application. The App provides the following services:
 
-- Scanning and digitizing paper and digital receipts using artificial intelligence
+- Scanning and digitizing paper and digital receipts using smart technology
 - Automatic extraction of receipt data including merchant name, date, items, subtotals, tax, and totals
 - Expense categorization and tracking
 - Budget creation and monitoring
@@ -33,16 +33,16 @@ We do not have access to your User Content. Since all data is stored locally on 
 You are responsible for ensuring that any User Content you submit does not violate any applicable laws or third-party rights.`,
   },
   {
-    title: '5. AI Processing & Accuracy',
-    body: `ReceiptNow uses artificial intelligence (powered by Google's Gemini AI through Firebase) to scan and extract information from receipts. Receipt images are sent to Google's AI servers for processing only; the extracted data is returned to and stored exclusively on your device. You acknowledge and agree that:
+    title: '5. Smart Processing & Accuracy',
+    body: `ReceiptNow uses smart technology (powered by Google's Gemini through Firebase) to scan and extract information from receipts. Receipt images are sent to Google's servers for processing only; the extracted data is returned to and stored exclusively on your device. You acknowledge and agree that:
 
-- AI-extracted data is provided on a best-effort basis and may contain errors
+- Extracted data is provided on a best-effort basis and may contain errors
 - You are responsible for reviewing and verifying all extracted data before relying on it
 - We do not guarantee 100% accuracy of scanned information
-- AI processing may not correctly interpret all receipt formats, handwriting, or damaged receipts
+- Smart processing may not correctly interpret all receipt formats, handwriting, or damaged receipts
 - You should not rely solely on the App for tax, legal, or financial compliance purposes
 
-We continuously work to improve AI accuracy but cannot be held liable for any errors in data extraction.`,
+We continuously work to improve accuracy but cannot be held liable for any errors in data extraction.`,
   },
   {
     title: '6. Acceptable Use',
@@ -69,7 +69,7 @@ You may not reproduce, modify, distribute, or create derivative works of the App
 
 **Free Tier:** Basic receipt scanning and expense tracking features with usage limitations.
 
-**Premium Subscription:** Access to all features including unlimited scanning, advanced insights, priority AI processing, and ad-free experience.
+**Premium Subscription:** Access to all features including unlimited scanning, advanced insights, priority smart processing, and ad-free experience.
 
 Subscription billing is managed through the Apple App Store or Google Play Store. By subscribing, you agree to their respective terms of service and billing policies.
 
@@ -92,8 +92,8 @@ Subscription billing is managed through the Apple App Store or Google Play Store
     title: '10. Third-Party Services',
     body: `The App integrates with the following third-party services:
 
-- **Firebase (Google):** Analytics and AI processing
-- **Google Gemini AI:** Receipt scanning and data extraction (images are processed and not stored)
+- **Firebase (Google):** Analytics and smart processing
+- **Google Gemini:** Receipt scanning and data extraction (images are processed and not stored)
 - **RevenueCat:** Subscription management
 - **Google AdMob:** Advertising (free tier only)
 
@@ -105,7 +105,7 @@ Each third-party service operates under its own terms of service and privacy pol
 
 - We are not liable for any financial decisions made based on data provided by the App
 - We are not liable for any data loss resulting from device failure, service interruptions, or technical issues
-- We are not liable for errors in AI-powered data extraction
+- We are not liable for errors in smart data extraction
 - Our total liability shall not exceed the amount you paid for the App in the 12 months preceding the claim
 - We are not liable for any indirect, incidental, special, consequential, or punitive damages
 

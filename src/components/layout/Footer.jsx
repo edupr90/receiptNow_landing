@@ -12,7 +12,7 @@ export default function Footer() {
               <span className="text-xl font-bold">ReceiptNow</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
-              AI-powered receipt scanner and expense tracker. Take control of your finances with smart technology.
+              Smart receipt scanner and expense tracker. Take control of your finances with smarter technology.
             </p>
           </div>
 
