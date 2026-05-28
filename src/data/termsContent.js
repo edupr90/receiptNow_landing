@@ -101,8 +101,10 @@ You have the right to:
     title: '10. Third-Party Services',
     body: `The App integrates with the following third-party services:
 
-- **Firebase (Google):** Analytics and smart processing
-- **Google Gemini:** Receipt scanning and data extraction (images are processed and not stored)
+- **Firebase Authentication (Google):** Sign-in with Google or Apple for paid plans
+- **Firebase Firestore & Firebase Storage (Google):** Cloud Sync storage for paid plans (receipt data, receipt images, line items, categories, tags, budgets, and app settings)
+- **Firebase Analytics & Crash Reporting (Google):** Anonymized usage and performance metrics
+- **Google Gemini (via Firebase AI):** Receipt scanning and data extraction (images are processed and not stored)
 - **RevenueCat:** Subscription management
 - **Google AdMob:** Advertising (free tier only)
 
