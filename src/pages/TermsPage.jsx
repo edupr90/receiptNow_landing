@@ -19,7 +19,7 @@ export default function TermsPage() {
           <h1 className="text-3xl md:text-4xl font-extrabold text-text-primary mb-2">
             Terms & Conditions
           </h1>
-          <p className="text-text-tertiary text-sm mb-2">Last Updated: March 29, 2026</p>
+          <p className="text-text-tertiary text-sm mb-2">Last Updated: May 28, 2026</p>
           <p className="text-text-secondary text-sm mb-8">
             Please also review our{' '}
             <Link to="/privacy" className="text-primary hover:text-primary-dark font-semibold">

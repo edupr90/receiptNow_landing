@@ -22,14 +22,14 @@ export const privacyContent = [
 
 **Paid plans with Cloud Sync — optional cloud storage**
 
-When you sign in with Google or Apple on a paid plan (Starter, Plus, Pro, or Unlimited), Cloud Sync is enabled so you can access your data across your devices. With Cloud Sync enabled:
+When you sign in with Google or Apple on a paid plan (Plus, Pro, or Unlimited), Cloud Sync is enabled so you can access your data across your devices. With Cloud Sync enabled:
 
 - Your **receipt data** (merchant, amounts, dates, notes), **receipt images**, **line items**, **categories**, **tags**, **budgets**, and **app settings** are stored in Firebase Firestore and Firebase Storage, scoped to your user account.
 - Same-platform devices (e.g., two iPhones, or two Android devices) on the same account share a synced state. iOS and Android devices on the same account keep independent scan limits because subscriptions are platform-specific.
 - We never sell, rent, or share your data with third parties for advertising.
 - You can sign out at any time to stop syncing, or delete your account from the "Delete Account" option in the app to permanently remove your cloud-stored data.
 
-**Important:** Local data on your device is not removed when you sign out or delete your account — only cloud data is removed. If you uninstall the App, local data is permanently deleted and cannot be recovered.`,
+**Important:** Local data on your device is not removed when you sign out or delete your account — only cloud data is removed. If you uninstall the App, local data is permanently deleted and cannot be recovered. We recommend using the built-in **manual backup** feature in the App to create a backup file before uninstalling or switching devices.`,
   },
   {
     title: '2.1 Third-Party Services',
