@@ -62,17 +62,20 @@ Each third party operates under its own privacy policy:
 - 30 smart scans per week
 - Ad-free experience
 - Full export capabilities (PDF, CSV, Excel, ZIP)
+- Cloud Sync across devices
 
 **Pro ($9.99/month):**
 - 60 smart scans per week
 - Ad-free experience
 - Full export capabilities (PDF, CSV, Excel, ZIP)
+- Cloud Sync across devices
 - Includes 3-day free trial
 
 **Unlimited ($59.99/year):**
 - Unlimited smart scans
 - Ad-free experience
 - Full export capabilities (PDF, CSV, Excel, ZIP)
+- Cloud Sync across devices
 
 **How Subscriptions Work:**
 - Payment is charged to your **Apple ID** or **Google Play** account at confirmation of purchase.
