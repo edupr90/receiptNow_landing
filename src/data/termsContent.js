@@ -22,13 +22,17 @@ The Service is provided "as is" and "as available." We do not guarantee uninterr
     title: '3. Eligibility',
     body: `You must be at least 13 years of age to use the App. If you are under 18, you must have parental or guardian consent.
 
-The App does not require account creation. All data is stored locally on your device, and no user accounts are maintained on our servers.`,
+The App can be used without creating an account; in that case, all data is stored locally on your device. Users on a paid subscription may optionally sign in with Google or Apple to enable Cloud Sync, which creates an account on our backend (Firebase) to synchronize data across devices. See Section 4 for details.`,
   },
   {
     title: '4. User Content & Data',
-    body: `You retain full ownership of all receipt images, financial data, and other content you submit to the App ("User Content"). All User Content is stored exclusively on your device and is never uploaded to or stored on our servers.
+    body: `You retain full ownership of all receipt images, financial data, and other content you submit to the App ("User Content").
 
-We do not have access to your User Content. Since all data is stored locally on your device, you are solely responsible for backing up your data. If you delete the App or clear its data, all your User Content will be permanently deleted and cannot be recovered.
+**Free tier & signed-out users:** All User Content is stored exclusively on your device and is never uploaded to or stored on our servers, with the sole exception of receipt images temporarily transmitted to Google Gemini for smart processing (see Section 5).
+
+**Paid plans with Cloud Sync:** When you sign in with Google or Apple on a paid plan, Cloud Sync is enabled. Your User Content (receipt data, receipt images, line items, categories, tags, budgets, and app settings) is stored in Firebase Firestore and Firebase Storage under your account so it can be synchronized across your devices. You can disable Cloud Sync by signing out, or permanently delete your cloud data via the "Delete Account" option in the app.
+
+You are solely responsible for backing up local data that has not been synchronized. If you delete the App or clear its data while Cloud Sync is disabled, your User Content will be permanently deleted and cannot be recovered.
 
 You are responsible for ensuring that any User Content you submit does not violate any applicable laws or third-party rights.`,
   },
@@ -80,13 +84,18 @@ Subscription billing is managed through the Apple App Store or Google Play Store
   },
   {
     title: '9. Data Storage & Deletion',
-    body: `All your data is stored locally on your device. We do not store, sync, or back up your data to any cloud service or remote server. You have the right to:
+    body: `**Local storage (default):** Your data is stored locally on your device. We do not store, sync, or back up your data to any cloud service unless you sign in on a paid plan and enable Cloud Sync.
+
+**Cloud Sync (paid plans only):** If you sign in with Google or Apple while on a paid subscription, your User Content is stored in Firebase Firestore and Firebase Storage under your account so it can be synchronized across your devices. You can stop syncing at any time by signing out, or permanently delete your cloud data via the "Delete Account" option in the app.
+
+You have the right to:
 
 - Access all your data at any time within the App
-- Export your data in PDF or CSV format
+- Export your data in PDF, CSV, Excel, or ZIP format
 - Delete any individual receipt or expense entry
+- Permanently delete all cloud-stored data (signed-in users) via "Delete Account" in app settings
 
-**Important:** Since all data is stored exclusively on your device, uninstalling the App or clearing app data will permanently delete all your information. This action cannot be undone and data cannot be recovered. We recommend exporting your data before uninstalling the App.`,
+**Important:** Uninstalling the App or clearing app data will permanently delete all local information on that device. If Cloud Sync is enabled, your cloud data persists until you delete your account. We recommend exporting your data before uninstalling the App if Cloud Sync is not in use.`,
   },
   {
     title: '10. Third-Party Services',

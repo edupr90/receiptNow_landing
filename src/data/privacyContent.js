@@ -11,19 +11,33 @@ export const privacyContent = [
   },
   {
     title: '2. Data Collection & Privacy',
-    body: `All information you enter or scan (receipts, expenses, budgets, categories) is stored **locally on your device**.
+    body: `How your data is stored depends on whether you have signed in and enabled Cloud Sync.
 
-- We **do not collect, transmit, or store your personal or financial data on external servers**.
+**Free tier & signed-out users — local-only storage**
+
+- All information you enter or scan (receipts, expenses, budgets, categories) is stored **locally on your device**.
+- We **do not collect, transmit, or store this data on external servers**.
+- Receipt images are sent to Google Gemini (via Firebase AI) only at the moment of scanning, for the sole purpose of extracting receipt data. Images are not retained beyond the processing session, and the extracted data is returned directly to your device. See Section 2.1 for details.
 - You are fully in control of your information. If you delete the App or reset your device, we cannot access, recover, or restore your data on your behalf.
-- We recommend using the built-in backup feature to save and restore your data across devices or prevent data loss. You can also export your data in PDF, CSV, or Excel format.
 
-**Important:** Since all data resides exclusively on your device, uninstalling the App or clearing app data will permanently and irrecoverably delete all your information. This action cannot be undone by us or anyone else.`,
+**Paid plans with Cloud Sync — optional cloud storage**
+
+When you sign in with Google or Apple on a paid plan (Starter, Plus, Pro, or Unlimited), Cloud Sync is enabled so you can access your data across your devices. With Cloud Sync enabled:
+
+- Your **receipt data** (merchant, amounts, dates, notes), **receipt images**, **line items**, **categories**, **tags**, **budgets**, and **app settings** are stored in Firebase Firestore and Firebase Storage, scoped to your user account.
+- Same-platform devices (e.g., two iPhones, or two Android devices) on the same account share a synced state. iOS and Android devices on the same account keep independent scan limits because subscriptions are platform-specific.
+- We never sell, rent, or share your data with third parties for advertising.
+- You can sign out at any time to stop syncing, or delete your account from the "Delete Account" option in the app to permanently remove your cloud-stored data.
+
+**Important:** Local data on your device is not removed when you sign out or delete your account — only cloud data is removed. If you uninstall the App, local data is permanently deleted and cannot be recovered.`,
   },
   {
     title: '2.1 Third-Party Services',
-    body: `While the App itself does not store your data on external servers, the following third-party services may process limited data:
+    body: `The App uses the following third-party services to process or store limited data:
 
-- **Google Gemini (via Firebase)** — Receipt images are securely transmitted to Google's servers for smart processing. Images are not retained beyond the processing session. Extracted data is returned directly to your device.
+- **Google Gemini (via Firebase AI)** — Receipt images are securely transmitted to Google's servers for smart processing. Images are not retained beyond the processing session. Extracted data is returned directly to your device.
+- **Firebase Authentication** — Used when you sign in with Google or Apple. Stores your account identifier, email, and display name to authenticate you across devices.
+- **Firebase Firestore & Firebase Storage (Cloud Sync, paid plans only)** — When Cloud Sync is enabled, your receipt data, receipt images, line items, categories, tags, budgets, and app settings are stored under your user account so they can be synchronized across your devices. Data is owned by you and removed when you delete your account.
 - **In-app purchases & subscriptions** — Handled by Apple App Store or Google Play.
 - **Subscription management** — Handled by RevenueCat.
 - **Advertisements** (for free-tier users) — Handled by Google AdMob. Ads are not targeted based on your financial data or receipt content.
@@ -113,7 +127,7 @@ This limitation of liability applies regardless of the legal theory on which the
   },
   {
     title: '7. Your Rights',
-    body: `Since all data is stored locally on your device, you have full and immediate control over your data at all times:
+    body: `You have full and immediate control over your data at all times:
 
 **Access:** View all your data at any time within the App.
 
@@ -123,9 +137,9 @@ This limitation of liability applies regardless of the legal theory on which the
 
 **Correction:** Edit or correct any receipt data within the App.
 
-**Deletion:** Delete any individual receipt, expense, or all data directly within the App. You may also delete all data by uninstalling the App.
+**Deletion:** Delete any individual receipt, expense, or all data directly within the App. You may also delete all local data by uninstalling the App. If you have Cloud Sync enabled, you can remove your cloud-stored data at any time by using the "Delete Account" option inside the app, which permanently deletes your Firebase account and all associated cloud data.
 
-**Opt-Out:** You can opt out of analytics data collection in the App settings. Ad personalization can be disabled in your device settings.`,
+**Opt-Out:** You can opt out of analytics data collection in the App settings. Ad personalization can be disabled in your device settings. You can sign out at any time to stop Cloud Sync without deleting your account.`,
   },
   {
     title: '8. Changes to This Policy',
