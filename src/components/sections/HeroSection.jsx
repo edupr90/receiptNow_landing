@@ -52,12 +52,14 @@ export default function HeroSection() {
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
           {/* Text content */}
           <div className={`flex-1 text-center lg:text-left max-w-xl animate-on-scroll from-left ${loaded ? 'visible' : ''}`}>
+            {/*
             <div className="inline-flex items-center gap-2 bg-primary/10 text-primary font-bold text-sm px-4 py-2 rounded-full mb-8">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
               Smart Expense Tracking
             </div>
+            */}
 
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-text-primary leading-[1.05] mb-7">
               Your Receipts,{' '}
@@ -71,6 +73,7 @@ export default function HeroSection() {
             <StoreButtons className="justify-center lg:justify-start mb-12" />
 
             {/* Stats row */}
+            {/*
             <div className="flex flex-wrap gap-3 justify-center lg:justify-start">
               {stats.map((stat) => (
                 <div
@@ -85,6 +88,7 @@ export default function HeroSection() {
                 </div>
               ))}
             </div>
+            */}
           </div>
 
           {/* iPhone frame */}
