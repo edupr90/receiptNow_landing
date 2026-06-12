@@ -58,20 +58,20 @@ Each third party operates under its own privacy policy:
 - Advertisements displayed
 - No export functionality
 
-**Plus ($6.99/month):**
+**Plus ($2.99/month):**
 - 30 smart scans per week
 - Ad-free experience
 - Full export capabilities (PDF, CSV, Excel, ZIP)
 - Cloud Sync across devices
 
-**Pro ($9.99/month):**
+**Pro ($4.99/month):**
 - 60 smart scans per week
 - Ad-free experience
 - Full export capabilities (PDF, CSV, Excel, ZIP)
 - Cloud Sync across devices
 - Includes 3-day free trial
 
-**Unlimited ($59.99/year):**
+**Unlimited ($29.99/year):**
 - Unlimited smart scans
 - Ad-free experience
 - Full export capabilities (PDF, CSV, Excel, ZIP)
