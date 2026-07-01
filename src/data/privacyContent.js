@@ -64,7 +64,7 @@ Each third party operates under its own privacy policy:
 - Full export capabilities (PDF, CSV, Excel, ZIP)
 - Cloud Sync across devices
 
-**Pro ($4.99/month):**
+**Pro ($5.99/month):**
 - 60 smart scans per week
 - Ad-free experience
 - Full export capabilities (PDF, CSV, Excel, ZIP)
